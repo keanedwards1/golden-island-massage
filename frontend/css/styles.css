@@ -73,11 +73,11 @@ header {
 }
 
 @media (max-width: 768px) {
-  .logo {
+/*   .logo {
     width: 100px;
     top: 55px;
     left: -2px;
-  }
+  } */
   #story {
     font-size: 15px;
   }
@@ -142,6 +142,11 @@ header {
   }
   #menu-2-container {
     display: none;
+  }
+}
+@media (max-width: 600px) {
+  .logo {
+    
   }
 }
 
