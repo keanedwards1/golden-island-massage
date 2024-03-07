@@ -62,7 +62,7 @@ header {
   background-image: url('/frontend/images/field.jpg');
   background-size: cover; /* Cover ensures the background covers the area without distortion */
   background-position: center; /* Centers the background image */
-  top: -108px;
+  top: -119px;
   left: 0;
   z-index: 0;
 }
