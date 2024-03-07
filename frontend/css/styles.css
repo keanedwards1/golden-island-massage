@@ -309,11 +309,8 @@ header {
       background-attachment: scroll;
       background-size: contain; 
       background-repeat: no-repeat; 
-      height: 35vh;
   }
-  section.parallax-photo.first-image, section.parallax-photo.second-image {
-      padding: 20px 0 20px 0;
-  }
+
 }
 
 .grid-container {
