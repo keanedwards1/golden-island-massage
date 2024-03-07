@@ -67,6 +67,22 @@ header {
   z-index: 0;
 }
 
+#story {
+  font-size: 25px; 
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 100px;
+    top: 55px;
+    left: -2px;
+  }
+  #story {
+    font-size: 15px;
+  }
+}
+
 
 #menu-2-container {
   width: 55vw;
@@ -173,7 +189,7 @@ header {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #cdcdcd;
+  background: #363636;
   border-radius: 3px;
   border-color: #1e1e1e;
   z-index: 1;
@@ -293,6 +309,7 @@ header {
       background-attachment: scroll;
       background-size: contain; 
       background-repeat: no-repeat; 
+      height: 26vh;
   }
 }
 
